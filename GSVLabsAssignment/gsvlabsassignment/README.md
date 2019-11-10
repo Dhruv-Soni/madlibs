@@ -15,7 +15,7 @@ npm install
 
 ### Start server
 ```
-npm run run
+npm run dev
 ```
 
 after this is done we can start the mongo db server
