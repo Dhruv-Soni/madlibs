@@ -34,4 +34,4 @@ sudo mongod
 
 run on localhost:8080. if 8080 is in use, open the window where the server is running, it will show you the port of the localhost to connect to.
 
-if anything fails, just "ctrl + c" and re-run the server and and mongo instance.
+if it fails at startup, just "ctrl + c" and re-run the server and and mongo instance, once again
