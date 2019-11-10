@@ -1,4 +1,4 @@
-# gsvlabsassignment
+
 Open 2 terminal windows
 
 in the first window:
