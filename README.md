@@ -26,6 +26,14 @@ in the second window:
 ```
 ./madlibs/GSVLabsAssignment/gsvlabassignment/
 ```
+## Download mongo DB
+```
+brew tap mongodb/brew
+
+brew install mongodb-community@4.2
+
+sudo mkdir -p /data/db
+```
 
 ## start Mongo DB server
 ```
@@ -36,4 +44,4 @@ if using mac, with catalina update try this for mondo db server: https://stackov
 
 run on http://localhost:8080/. if 8080 is in use, open the window where the server is running, it will show you the port of the localhost to connect to.
 
-if it fails at startup, just "ctrl + c" and re-run the server and and mongo instance, once again
+if it fails at startup, or doesnt register, just "ctrl + c" and re run the 'npm run dev' command again, and mongo instance, once again
