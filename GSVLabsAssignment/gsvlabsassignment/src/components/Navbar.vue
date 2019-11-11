@@ -2,7 +2,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top custom-bg-dark">
       <router-link to="/" class="navbar-brand">
-          <img style="max-height:25px;" alt="Vue logo" src="../assets/logo.png" /> GSVLABS
+          <img style="max-height:50px;" alt="Vue logo" src="../assets/logo.png" />
       </router-link>
     <a class="navbar-brand" href="#">
         

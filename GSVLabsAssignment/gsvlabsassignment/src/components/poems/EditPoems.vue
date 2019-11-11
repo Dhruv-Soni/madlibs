@@ -124,7 +124,7 @@
                 for (key in loopArray[i]){
                     var value = loopArray[i][key]
                     if(key.includes('first') || key.includes('second') || key.includes('third')) {
-                        if ((value === null) || (/[^a-zA-Z]/.test(value))){
+                        if ((value === null) ||(value === "") ||  (/[^a-zA-Z]/.test(value))){
                             console.log(value);
                             this.error = 'Please use single words, with alphabets only'
                             alert(this.error);

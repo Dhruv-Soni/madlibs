@@ -3,7 +3,7 @@
         <h1>Poems</h1>
 
         <div class="mb-4">
-            <router-link to="/poems/new" class="btn btn-success ml-2" exact>Create Poem</router-link>
+            <router-link v-bind:style="{ backgroundColor: '#5974be', color : '#fff'}" to="/poems/new" class="btn ml-2" exact>Create Poem</router-link>
         </div>
 
         <div v-if="poems && poems.length > 0" class="d-flex flex-wrap justify-content-start">

@@ -3,7 +3,7 @@
 }
 
 .custom-bg-dark{
-    background-color: #398f4f !important;
+    background-color: #5974be !important;
 }
 
 nav.navbar{
@@ -26,13 +26,13 @@ div#app-container{
     bottom: 96px;
     width: 100%;
     padding: 2rem;
-    background-color: #1d2733;
+    background-color: #a1a9cc;
     overflow: auto;
 }
 
 footer#custom-footer{
     height: 6rem;
-    background-color: #373f46;
+    background-color: #000000;
     font-size: 1rem;
     position: fixed;
     bottom: 0;
@@ -62,8 +62,4 @@ form.custom-form {
 .modal-title,
 .modal-body p {
     color: #000 !important;
-}
-
-.late {
-    color: #dc3545;
 }

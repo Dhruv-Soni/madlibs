@@ -109,7 +109,7 @@
             for (i in loopArray){
                 for (key in loopArray[i]){
                     var value = loopArray[i][key]
-                    if ((value === null) || (/[^a-zA-Z]/.test(value))){
+                    if ((value === null) || (value === "") || (/[^a-zA-Z]/.test(value))){
                         this.error = 'Please use single words, with alphabets only'
                         alert(this.error);
                         return
