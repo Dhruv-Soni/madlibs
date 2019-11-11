@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Login from '../views/authentication/Login.vue'
-import Register from '../views/authentication/Register.vue'
-import PoemsAll from '../views/poems/PoemsAll.vue'
-import CreatePoem from '../views/poems/CreatePoem.vue'
-import EditPoems from '../views/poems/EditPoems.vue'
+import Login from '../components/authentication/Login.vue'
+import Register from '../components/authentication/Register.vue'
+import PoemsAll from '../components/poems/PoemsAll.vue'
+import CreatePoem from '../components/poems/CreatePoem.vue'
+import EditPoems from '../components/poems/EditPoems.vue'
 import * as auth from '../services/AuthService'
 
 Vue.use(VueRouter)
